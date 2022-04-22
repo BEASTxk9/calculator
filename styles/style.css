@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    background-color: rgb(99, 93, 93);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 1px 1px 4px 0px rgb(41, 214, 26);
+       -moz-box-shadow: 1px 1px 4px 0px rgb(41, 214, 26);
+            box-shadow: 1px 1px 4px 0px rgb(41, 214, 26);
+    background-color: rgb(151, 18, 18);
+    height: 450px;
+    background-color: #585555;
+    border-radius: 15px;
+  }
+  .header{
+    background-color: #3c3939;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .result{
+    font-size: 24px;
+    padding: 21px 3px;
+    font-weight: 700;
+    text-align: right;
+    width: 96%;
+    border-radius: 15px;
+    background-color: #1ae4bf;
+  }
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .conflict
+  {
+    display: inline-block;
+    width: 100%;
+  }
+  .global{
+   padding: 15px;
+   font-weight: bold;
+   font-size: 16px;
+   border: none;
+   border-radius: 3px;
+   background-color: #e61414;
+   float: left;
+   width: 23.5%;
+   margin: 0 2px;
+   border-radius: 12px;
+   /*border: 1px solid #000;*/
+  }
+  .conflict .left,
+  .conflict .right{
+    float: left;
+    position: relative;
+  }
+  .left{
+    width: 74%;
+  }
+  .right{
+    width: 24%;
+  }
+  .big{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ce0d0d;
+    float: left;
+    width: 64.5%;
+    margin: 0 2px;
+  }
+  .small{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #d41212;
+    float: left;
+    width: 31.5%;
+    margin: 0 2px;
+  }
+  .plus{
+    height: 105px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .green{
+    background-color: #0bba14;
+  }
+  .red{
+    background-color: #000000
+  }
+  .grey{
+    background-color: #1ced3f;
+  }
+  .white-text{
+    color: rgb(239, 8, 8);
+  }
+  .top-margin{
+    margin-top: 4px;
+  }
+  body{
+      background-color: #3c3939;
+  }
